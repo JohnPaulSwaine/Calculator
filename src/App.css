@@ -19,11 +19,14 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 5px;
-  box-shadow: 0 0 15px goldenrod;
-  border: solid rgb(122, 249, 90);
+  box-shadow: 0 0 15px royalblue;
+  border: solid blue;
 }
 
-body {
-  background-image: url('./assets/Calculator\ background\ image\ ruperts\ tower.jpg');
+#root {
+  background-image: url('./assets/Background.jpg') ;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
   }
   
